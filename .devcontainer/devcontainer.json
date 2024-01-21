@@ -7,6 +7,7 @@
   "mounts": [
     "source=${localEnv:HOME}${localEnv:USERPROFILE}/.gitconfig,target=/home/node/.gitconfig,type=bind"
   ],
+  "postStartCommand": "npx zenn preview",
   "customizations": {
     "vscode": {
       "extensions": [

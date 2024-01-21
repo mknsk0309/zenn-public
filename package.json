@@ -1,0 +1,15 @@
+{
+  "name": "zenn-public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "new-article": "zx ./scripts/new-files.mjs article",
+    "new-book": "zx ./scripts/new-files.mjs book"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xclip": "^1.0.3"
+  }
+}
